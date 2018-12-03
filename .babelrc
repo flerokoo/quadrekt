@@ -1,0 +1,16 @@
+{
+    "presets": [
+      ["@babel/preset-env", {
+        "debug": false,
+        "targets": {
+          "browsers": ["ie 11"]
+        }
+      }]
+    ],
+    "ignore": [
+        "node_modules"
+    ],
+    "plugins": [
+      "babel-plugin-rewire"
+    ]
+  }
