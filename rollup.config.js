@@ -1,13 +1,13 @@
-import babel from 'rollup-plugin-babel';
+import babel from "rollup-plugin-babel";
 
 module.exports = {
-    input: 'src/index.js',
+    input: "src/index.js",
     output: [{
-        file: 'dist/rect-pack-async.js',
-        format: 'umd',
-        name: "RectPackAsync"
+        file: "dist/quadrekt.js",
+        format: "umd",
+        name: "Quadrekt"
     }, {
-        file: 'dist/rect-pack-async.module.js',
+        file: "dist/quadrekt.module.js",
         format: "es"            
     }], 
     plugins: [babel()]

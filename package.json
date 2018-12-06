@@ -1,5 +1,5 @@
 {
-  "name": "rect-pack-async",
+  "name": "quadrekt",
   "version": "1.0.0",
   "keywords": [
     "bin pack",
@@ -15,11 +15,11 @@
     "url": ""
   },
   "description": "Pack rectangles in a bigger rectangle",
-  "main": "dist/rect-pack-async.js",
-  "jsnext:main": "dist/rect-pack-async.module.js",
+  "main": "dist/quadrekt.js",
+  "jsnext:main": "dist/quadrekt.module.js",
   "scripts": {
     "test": "./node_modules/.bin/jest",
-    "build": "rollup -c"
+    "build": "rollup -c rollup.config.js"
   },
   "license": "ISC",
   "devDependencies": {
@@ -28,8 +28,10 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-plugin-rewire": "^1.2.0",
+    "eslint": "^5.9.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
+    "pureimage": "^0.1.6",
     "rollup": "^0.67.3",
     "rollup-plugin-babel": "^4.0.3"
   },
